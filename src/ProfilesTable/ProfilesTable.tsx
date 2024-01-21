@@ -72,7 +72,7 @@ const ProfilesTable: React.FC = () => {
 
   return (
     <div className="table-container">
-      <h2>Profiles for Account ID: {accountId}</h2>
+      <h1>Profiles for Account ID: {accountId}</h1>
       <Table striped bordered hover>
         <thead>
           <tr>

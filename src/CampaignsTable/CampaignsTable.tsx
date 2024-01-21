@@ -66,7 +66,7 @@ const CampaignsTable: React.FC = () => {
 
   return (
     <div className="table-container">
-      <h2>Campaigns for Profile ID: {profileId}</h2>
+      <h1>Campaigns for Profile ID: {profileId}</h1>
       <Table striped bordered hover>
         <thead>
           <tr>

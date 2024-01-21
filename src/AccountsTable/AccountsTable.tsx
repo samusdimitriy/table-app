@@ -60,7 +60,7 @@ const AccountsTable: React.FC = () => {
 
   return (
     <div className="table-container">
-      <h2>Accounts</h2>
+      <h1>Accounts</h1>
       <Table striped bordered hover className="accounts-table">
         <thead>
           <tr>
@@ -77,7 +77,7 @@ const AccountsTable: React.FC = () => {
               <td colSpan={3}>No accounts available</td>
             </tr>
           )}
-        </tbody>{' '}
+        </tbody>
       </Table>
 
       <div className="pagination-container">
