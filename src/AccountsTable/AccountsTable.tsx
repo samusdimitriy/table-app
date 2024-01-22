@@ -16,7 +16,7 @@ interface Account {
 const AccountsTable: React.FC = () => {
   const [accounts, setAccounts] = useState<Account[]>([]);
   const [sortBy, setSortBy] = useState<SortKey | null>(null);
-  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
+  const [sortOrder] = useState<'asc' | 'desc'>('asc');
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [itemsPerPage] = useState<number>(3);
 
