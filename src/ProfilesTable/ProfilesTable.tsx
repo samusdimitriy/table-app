@@ -112,7 +112,13 @@ const ProfilesTable: React.FC = () => {
       </div>
 
       <div className="back-link">
-        <span onClick={() => navigate('/accounts')}>Back to Accounts</span>
+        <button
+          type="button"
+          className="btn btn-secondary"
+          onClick={() => navigate('/accounts')}
+        >
+          Back to Accounts
+        </button>
       </div>
     </div>
   );

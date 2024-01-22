@@ -4,6 +4,7 @@
 
 .table-container table {
   width: 100%;
+  min-height: 164px;
   border-collapse: collapse;
 }
 

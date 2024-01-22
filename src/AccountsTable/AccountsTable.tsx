@@ -88,8 +88,7 @@ const AccountsTable: React.FC = () => {
           Previous Page
         </Button>
         <span>
-          {' '}
-          Page {currentPage} of {totalPages}{' '}
+          Page {currentPage} of {totalPages}
         </span>
         <Button
           onClick={() => setCurrentPage(currentPage + 1)}
